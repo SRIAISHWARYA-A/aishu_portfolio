@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sriaishwarya A | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    h2, h3, h4 {
+      font-size: 1.8rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+      line-height: 1.8;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .scrolling-gallery {
+      display: flex;
+      overflow-x: auto;
+      padding: 10px 0;
+    }
+    .scrolling-gallery::-webkit-scrollbar {
+      height: 8px;
+    }
+    .scrolling-gallery::-webkit-scrollbar-thumb {
+      background: #aaa;
+      border-radius: 10px;
+    }
+    .scrolling-gallery img {
+      width: 360px;
+      height: 260px;
+      object-fit: cover;
+      margin-right: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+    .scrolling-gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="profile">
+      <img src="assets/profile.jpg" alt="Sriaishwarya's Photo" class="profile-pic" />
+    </div>
+    <div class="bio">
+      <h1>SRIAISHWARYA A</h1>
+      <h3>Commerce Student</h3>
+      <p><strong>Phone:</strong> +91 89252 59744</p>
+      <p><strong>Email:</strong> aishwarya0105aishu@gmail.com</p>
+      <p><strong>Location:</strong> Tiruppur</p>
+    </div>
+  </header>
+
+  <!-- Career Objective -->
+  <section class="section">
+    <h2>Career Objective</h2>
+    <p>
+      I am a dedicated commerce student with a strong interest in finance, accounting, and business management. I aim to apply my academic knowledge in real-world environments and am committed to continuous learning and professional growth.
+    </p>
+    <p>
+      I possess excellent communication skills, adaptability, and a collaborative mindset. I am enthusiastic about contributing to a dynamic organization where I can leverage my skills to support business processes and decision-making.
+      My goal is to work in a challenging role where I can make meaningful contributions, gain practical experience, and evolve both professionally and personally.
+    </p>
+  </section>
+
+  <!-- Academia -->
+  <section class="section">
+    <h2>Academia</h2>
+    <ul>
+      <li><strong>B.Com:</strong> ST. Joseph's College for Women – 6.7 (Aggregated Score) – 2026</li>
+      <li><strong>HSC (+12):</strong> Jaycees Matriculation Higher Secondary School – 72.4% – 2023</li>
+      <li><strong>HSC (+11):</strong> Jaycees Matriculation Higher Secondary School – 76.2% – 2022</li>
+    </ul>
+  </section>
+
+  <!-- Soft Skills -->
+  <section class="section">
+    <h2>Soft Skills</h2>
+    <ul>
+      <li>I communicate effectively in both individual and group settings, helping me collaborate and work well with others.</li>
+      <li>I have demonstrated leadership by taking initiative and motivating teams during academic tasks and group activities.</li>
+      <li>I manage my time efficiently and am able to meet deadlines while balancing academic and personal commitments.</li>
+    </ul>
+  </section>
+
+  <!-- Area of Interest -->
+  <section class="section">
+    <h2>Area of Interest</h2>
+    <ul>
+      <li>I am passionate about Business Analytics, where I enjoy interpreting data and deriving insights to support decisions.</li>
+      <li>Accounting interests me as it builds strong foundations in finance and helps understand organizational performance.</li>
+      <li>I am fascinated by E-commerce and how digital platforms transform buying, selling, and customer experiences.</li>
+      <li>I find Digital Marketing engaging because it combines creativity with data to reach and understand audiences effectively.</li>
+    </ul>
+  </section>
+
+  <!-- Hobbies -->
+  <section class="section">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>I enjoy editing photos and videos as a creative outlet and a way to enhance digital content quality.</li>
+      <li>I practice calligraphy, which improves my focus, patience, and artistic skills through handwriting design.</li>
+    </ul>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="section">
+    <h2>Certificates</h2>
+    <p>
+      The following certificates showcase my commitment to learning and self-development. They reflect my participation in various academic and skill-building programs that strengthen my understanding of business, finance, and digital tools.
+    </p>
+    <div class="scrolling-gallery">
+      <img src="assets/certificates/cert1.jpg" alt="Certificate 1" />
+      <img src="assets/certificates/cert2.png" alt="Certificate 2" />
+      <img src="assets/certificates/cert3.png" alt="Certificate 3" />
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section">
+    <h2>Contact</h2>
+    <p>If you'd like to connect with me, feel free to email at <strong>aishwarya0105aishu@gmail.com</strong>.</p>
+  </section>
+</body>
+</html>
